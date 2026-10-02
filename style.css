@@ -66,23 +66,6 @@ button {
 /* LOGO */
 
 .logo {
-    display: flex;
-    align-items: baseline;
-
-    font-size: 22px;
-    letter-spacing: 0.12em;
-    font-weight: 700;
-}
-
-.logo-small {
-    font-size: 25px;
-}
-
-.logo-main {
-    font-size: 17px;
-}
-
-.logo {
     display: block;
     width: 180px;
 }
@@ -92,6 +75,7 @@ button {
     width: 100%;
     height: auto;
 }
+
 
 /* NAV */
 
