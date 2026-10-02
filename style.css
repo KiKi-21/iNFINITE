@@ -550,11 +550,11 @@ button {
 
 .character-03 {
     background-image:
-        url("Siheon.png"),
+        url("Siheon.003.png"),
         linear-gradient(145deg, #17151d, #09090c);
 
     background-size:
-        100%,
+        contain,
         cover;
 
     background-position:
