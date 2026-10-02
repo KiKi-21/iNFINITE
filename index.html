@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -18,8 +19,8 @@
     <header class="header">
 
         <a href="#" class="logo">
-    <img src="logo.svg" alt="INFINITE">
-</a>
+            <img src="logo.svg" alt="INFINITE">
+        </a>
 
         <nav class="nav">
             <a href="#world">WORLD</a>
@@ -44,23 +45,15 @@
 
         <section class="hero">
 
-            <!-- 배경 이미지 -->
             <div class="hero-background"></div>
-
-            <!-- 어두운 오버레이 -->
             <div class="hero-overlay"></div>
-
-            <!-- 노이즈 -->
             <div class="noise"></div>
 
             <div class="hero-content">
 
                 <div class="hero-subtitle">
-                     <img src="logo.svg" alt="INFINITE">
+                    <img src="logo.svg" alt="INFINITE">
                 </div>
-
-              
-                </h1>
 
                 <div class="hero-line"></div>
 
@@ -103,6 +96,7 @@
 
                 <div class="world-title">
                     <p>THE WORLD</p>
+
                     <h2>
                         WHEN THE<br>
                         <em>END</em> IS NOT<br>
@@ -111,6 +105,7 @@
                 </div>
 
                 <div class="world-text">
+
                     <p>
                         The world has already collapsed.
                         Yet something remains.
@@ -131,6 +126,7 @@
                     <a href="#" class="text-link">
                         READ THE ARCHIVE →
                     </a>
+
                 </div>
 
             </div>
@@ -150,140 +146,113 @@
                 <div></div>
             </div>
 
-         <div class="character-grid">
 
-    <button class="character-card" data-character="character-01">
-        <div class="character-image character-01"></div>
+            <!-- CHARACTER CARDS -->
+            <div class="character-grid">
 
-        <div class="character-info">
-            <span>001</span>
-            <h3>미래</h3>
-            <p>INDEPENDENT PLATOON</p>
-        </div>
-    </button>
+                <button
+                    class="character-card"
+                    data-character="character-01"
+                    type="button"
+                >
 
+                    <div class="character-image character-01"></div>
 
-    <button class="character-card" data-character="character-02">
-        <div class="character-image character-02"></div>
+                    <div class="character-info">
+                        <span>001</span>
+                        <h3>미래</h3>
+                        <p>INDEPENDENT PLATOON</p>
+                    </div>
 
-        <div class="character-info">
-            <span>002</span>
-            <h3>우연</h3>
-            <p>INDEPENDENT PLATOON</p>
-        </div>
-    </button>
+                </button>
 
 
-    <button class="character-card" data-character="character-03">
-        <div class="character-image character-03"></div>
+                <button
+                    class="character-card"
+                    data-character="character-02"
+                    type="button"
+                >
 
-        <div class="character-info">
-            <span>003</span>
-            <h3>시헌</h3>
-            <p>INDEPENDENT PLATOON</p>
-        </div>
-    </button>
+                    <div class="character-image character-02"></div>
 
-</div>
+                    <div class="character-info">
+                        <span>002</span>
+                        <h3>우연</h3>
+                        <p>INDEPENDENT PLATOON</p>
+                    </div>
 
-
-<div class="character-detail">
-
-    <div class="character-detail-inner">
-
-        <div class="character-detail-number">
-            001
-        </div>
-
-        <div class="character-detail-content">
-
-            <span class="character-detail-label">
-                INDEPENDENT PLATOON
-            </span>
-
-            <h2>미래</h2>
-
-            <p>
-                무법지대 한가운데에 있었다.
-            </p>
-
-        </div>
+                </button>
 
 
-        <div class="character-detail-meta">
+                <button
+                    class="character-card"
+                    data-character="character-03"
+                    type="button"
+                >
 
-            <div>
-                <span>AGE</span>
-                <strong>UNKNOWN</strong>
+                    <div class="character-image character-03"></div>
+
+                    <div class="character-info">
+                        <span>003</span>
+                        <h3>시헌</h3>
+                        <p>INDEPENDENT PLATOON</p>
+                    </div>
+
+                </button>
+
             </div>
 
-            <div>
-                <span>CLASS</span>
-                <strong>WARRIOR</strong>
+
+            <!-- CHARACTER DETAIL -->
+            <div class="character-detail">
+
+                <div class="character-detail-inner">
+
+                    <div class="character-detail-number">
+                        001
+                    </div>
+
+
+                    <div class="character-detail-content">
+
+                        <span class="character-detail-label">
+                            INDEPENDENT PLATOON / SQUAD LEADER
+                        </span>
+
+                        <h2>미래</h2>
+
+                        <p>
+                            무법지대 한가운데에 있었다.
+                        </p>
+
+                    </div>
+
+
+                    <div class="character-detail-meta">
+
+                        <div>
+                            <span>AGE</span>
+                            <strong>UNKNOWN</strong>
+                        </div>
+
+                        <div>
+                            <span>CLASS</span>
+                            <strong>WARRIOR</strong>
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="character-detail-close"
+                        type="button"
+                    >
+                        CLOSE ×
+                    </button>
+
+                </div>
+
             </div>
-
-        </div>
-
-
-        <button class="character-detail-close">
-            CLOSE ×
-        </button>
-
-    </div>
-
-</div>
-
-
-
-
-<!-- CHARACTER DETAIL -->
-
-<div class="character-detail">
-
-    <div class="character-detail-inner">
-
-        <div class="character-detail-number">
-            001
-        </div>
-
-        <div class="character-detail-content">
-
-            <span class="character-detail-label">
-                UNKNOWN ORIGIN
-            </span>
-
-            <h2>CHARACTER NAME</h2>
-
-            <p>
-                Character description goes here.
-                This character exists somewhere between
-                the remnants of the fallen world and
-                the unknown.
-            </p>
-
-        </div>
-
-        <div class="character-detail-meta">
-
-            <div>
-                <span>ROLE</span>
-                <strong>UNKNOWN</strong>
-            </div>
-
-            <div>
-                <span>STATUS</span>
-                <strong>ACTIVE</strong>
-            </div>
-
-        </div>
-
-        <button class="character-detail-close">
-            CLOSE ×
-        </button>
-
-    </div>
-
-</div>
 
         </section>
 
@@ -395,16 +364,21 @@
                 <div class="media-background"></div>
 
                 <div class="media-content">
+
                     <span>TRAILER / 001</span>
 
                     <h2>
                         INFINITE
                     </h2>
 
-                    <button class="play-button">
+                    <button
+                        class="play-button"
+                        type="button"
+                    >
                         <span>▶</span>
                         WATCH TRAILER
                     </button>
+
                 </div>
 
             </div>
@@ -436,382 +410,249 @@
     </footer>
 
 
-<script>
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+    <script>
 
-    /* HEADER */
+        /* =========================
+           HEADER
+        ========================== */
 
-    window.addEventListener("scroll", function () {
+        window.addEventListener("scroll", function () {
 
-        const header =
-            document.querySelector(".header");
+            const header =
+                document.querySelector(".header");
 
-        if (window.scrollY > 50) {
+            if (window.scrollY > 50) {
 
-            header.classList.add("scrolled");
+                header.classList.add("scrolled");
 
-        } else {
+            } else {
 
-            header.classList.remove("scrolled");
+                header.classList.remove("scrolled");
 
-        }
+            }
 
-    });
+        });
 
 
+        /* =========================
+           CHARACTER DATA
+        ========================== */
 
-    /* CHARACTER DATA */
+        const characters = {
 
-    const characters = {
+            "character-01": {
 
-        "character-01": {
+                number: "001",
 
-            number: "001",
+                label:
+                    "INDEPENDENT PLATOON / SQUAD LEADER",
 
-            label:
-                "INDEPENDENT PLATOON / SQUAD LEADER",
+                title:
+                    "미래",
 
-            title:
-                "미래",
+                age:
+                    "UNKNOWN",
 
-            age:
-                "UNKNOWN",
+                role:
+                    "WARRIOR",
 
-            role:
-                "WARRIOR",
+                affiliation:
+                    "INDEPENDENT PLATOON",
 
-            affiliation:
-                "INDEPENDENT PLATOON",
+                description:
+                    "무법지대 한가운데에 있었다. " +
+                    "주위로는 기괴한 생명체들이 가득했고, " +
+                    "이곳을 벗어나기 위해— " +
+                    "[ SIGNAL LOST ] " +
+                    "그녀는 결국 바닥에 쓰러졌다. " +
+                    "다시 눈을 떴을 때는 아늑한 공간과 따뜻한 침대였다. " +
+                    "그녀는 독립 소대의 소대장으로 활동하며 " +
+                    "잊혀진 과거를 마주할 기회를..."
 
-            description:
-                "무법지대 한가운데에 있었다. " +
-                "주위로는 기괴한 생명체들이 가득했고, " +
-                "이곳을 벗어나기 위해— " +
-                "[ SIGNAL LOST ] " +
-                "그녀는 결국 바닥에 쓰러졌다. " +
-                "다시 눈을 떴을 때는 아늑한 공간과 따뜻한 침대였다. " +
-                "그녀는 독립 소대의 소대장으로 활동하며 " +
-                "잊혀진 과거를 마주할 기회를..."
+            },
 
-        },
 
+            "character-02": {
 
-        "character-02": {
+                number: "002",
 
-            number: "002",
+                label:
+                    "INDEPENDENT PLATOON",
 
-            label:
-                "INDEPENDENT PLATOON",
+                title:
+                    "우연",
 
-            title:
-                "우연",
+                age:
+                    "25",
 
-            age:
-                "25",
+                role:
+                    "CLOSE-RANGE SUPPORT",
 
-            role:
-                "CLOSE-RANGE SUPPORT",
+                affiliation:
+                    "INDEPENDENT PLATOON",
 
-            affiliation:
-                "INDEPENDENT PLATOON",
+                description:
+                    "사홀 시 최고의 기업들을 움직이는 살굿무당의 딸. " +
+                    "[ SIGNAL LOST ] " +
+                    "전해지는 소문으로 살굿무당을 향한 사람들의 시선은 그리 살갑지 않다. " +
+                    "그녀가 22살이 되던 해, 큰 방화사건이 일어났고 " +
+                    "그녀를 옭아매던 소문과 갈등 속에서 결국 " +
+                    "가장 사랑했던 봄의 향기를 뒤로 한 채 회사에 입사하게 된다."
 
-            description:
-                "사홀 시 최고의 기업들을 움직이는 살굿무당의 딸. " +
-                "[ SIGNAL LOST ] " +
-                "전해지는 소문으로 살굿무당을 향한 사람들의 시선은 그리 살갑지 않다. " +
-                "그녀가 22살이 되던 해, 큰 방화사건이 일어났고 " +
-                "그녀를 옭아매던 소문과 갈등 속에서 결국 " +
-                "가장 사랑했던 봄의 향기를 뒤로 한 채 회사에 입사하게 된다."
+            },
 
-        },
 
+            "character-03": {
 
-        "character-03": {
+                number: "003",
 
-            number: "003",
+                label:
+                    "INDEPENDENT PLATOON",
 
-            label:
-                "INDEPENDENT PLATOON",
+                title:
+                    "시헌",
 
-            title:
-                "시헌",
+                age:
+                    "23",
 
-            age:
-                "23",
+                role:
+                    "RANGED WARRIOR",
 
-            role:
-                "RANGED WARRIOR",
+                affiliation:
+                    "INDEPENDENT PLATOON",
 
-            affiliation:
-                "INDEPENDENT PLATOON",
+                description:
+                    "감았던 눈을 떴다. " +
+                    "수많은 검은색의 그림자와 공허한 눈동자들. " +
+                    "일렬로 늘어선 흰 벽, 용도를 알 수 없는 방. " +
+                    "그는 [ SIGNAL LOST ]. " +
+                    "황금빛은 흐려지고 이윽고 붉게 물들었다가, " +
+                    "마침내 검은색으로."
 
-            description:
-                "감았던 눈을 떴다. " +
-                "수많은 검은색의 그림자와 공허한 눈동자들. " +
-                "일렬로 늘어선 흰 벽, 용도를 알 수 없는 방. " +
-                "그는 [ SIGNAL LOST ]. " +
-                "황금빛은 흐려지고 이윽고 붉게 물들었다가, " +
-                "마침내 검은색으로."
+            }
 
-        }
+        };
 
-    };
 
+        /* =========================
+           CHARACTER ELEMENTS
+        ========================== */
 
+        const characterCards =
+            document.querySelectorAll(".character-card");
 
-    /* CHARACTER ELEMENTS */
+        const characterDetail =
+            document.querySelector(".character-detail");
 
-    const characterCards =
-        document.querySelectorAll(".character-card");
+        const detailNumber =
+            document.querySelector(".character-detail-number");
 
-    const characterDetail =
-        document.querySelector(".character-detail");
+        const detailLabel =
+            document.querySelector(".character-detail-label");
 
-    const detailNumber =
-        document.querySelector(".character-detail-number");
+        const detailTitle =
+            document.querySelector(".character-detail-content h2");
 
-    const detailLabel =
-        document.querySelector(".character-detail-label");
+        const detailDescription =
+            document.querySelector(".character-detail-content p");
 
-    const detailTitle =
-        document.querySelector(".character-detail-content h2");
+        const detailMeta =
+            document.querySelector(".character-detail-meta");
 
-    const detailDescription =
-        document.querySelector(".character-detail-content p");
+        const closeButton =
+            document.querySelector(".character-detail-close");
 
-    const detailMeta =
-        document.querySelector(".character-detail-meta");
 
-    const closeButton =
-        document.querySelector(".character-detail-close");
+        /* =========================
+           CHARACTER CLICK
+        ========================== */
 
+        characterCards.forEach(function (card) {
 
+            card.addEventListener("click", function () {
 
-    /* CHARACTER CLICK */
+                const id =
+                    card.dataset.character;
 
-    characterCards.forEach(function(card) {
+                const data =
+                    characters[id];
 
-        card.addEventListener("click", function() {
+                if (!data) return;
 
-            const id =
-                card.dataset.character;
 
-            const data =
-                characters[id];
+                /* 현재 선택 표시 */
 
-            if (!data) return;
+                characterCards.forEach(function (item) {
 
+                    item.classList.remove("active");
 
-            /* 다른 카드 선택 해제 */
+                });
 
-            characterCards.forEach(function(card) {
+                card.classList.add("active");
+
+
+                /* 기본 정보 */
+
+                detailNumber.textContent =
+                    data.number;
+
+                detailLabel.textContent =
+                    data.label;
+
+                detailTitle.textContent =
+                    data.title;
+
+                detailDescription.textContent =
+                    data.description;
+
+
+                /* 오른쪽 정보 */
+
+                detailMeta.innerHTML = `
+
+                    <div>
+                        <span>AGE</span>
+                        <strong>${data.age}</strong>
+                    </div>
+
+                    <div>
+                        <span>CLASS</span>
+                        <strong>${data.role}</strong>
+                    </div>
+
+                `;
+
+
+                /* 패널 열기 */
+
+                characterDetail.classList.add("active");
+
+            });
+
+        });
+
+
+        /* =========================
+           CLOSE
+        ========================== */
+
+        closeButton.addEventListener("click", function () {
+
+            characterDetail.classList.remove("active");
+
+            characterCards.forEach(function (card) {
 
                 card.classList.remove("active");
 
             });
 
-
-            /* 현재 카드 선택 */
-
-            card.classList.add("active");
-
-
-            /* 내용 변경 */
-
-            detailNumber.textContent =
-                data.number;
-
-            detailLabel.textContent =
-                data.label;
-
-            detailTitle.textContent =
-                data.title;
-
-            detailDescription.textContent =
-                data.description;
-
-
-            /* 오른쪽 정보 */
-
-            detailMeta.innerHTML = `
-
-                <div>
-
-                    <span>AGE</span>
-
-                    <strong>
-                        ${data.age}
-                    </strong>
-
-                </div>
-
-
-                <div>
-
-                    <span>CLASS</span>
-
-                    <strong>
-                        ${data.role}
-                    </strong>
-
-                </div>
-
-            `;
-
-
-            /* 패널 열기 */
-
-            characterDetail.classList.add("active");
-
         });
 
-    });
-
-
-
-    /* CLOSE */
-
-    closeButton.addEventListener("click", function() {
-
-        characterDetail.classList.remove("active");
-
-        characterCards.forEach(function(card) {
-
-            card.classList.remove("active");
-
-        });
-
-    });
-
-<script>
-
-    // =========================
-    // CHARACTER DETAIL
-    // =========================
-
-    const characterCards =
-        document.querySelectorAll(".character-card");
-
-    const characterDetail =
-        document.querySelector(".character-detail");
-
-    const detailNumber =
-        document.querySelector(".character-detail-number");
-
-    const detailLabel =
-        document.querySelector(".character-detail-label");
-
-    const detailTitle =
-        document.querySelector(".character-detail-content h2");
-
-    const detailDescription =
-        document.querySelector(".character-detail-content p");
-
-    const detailMeta =
-        document.querySelector(".character-detail-meta");
-
-
-    const characters = {
-
-        "character-01": {
-            number: "001",
-            label: "UNKNOWN ORIGIN",
-            title: "CHARACTER NAME",
-            description:
-                "Character description goes here. This character exists somewhere between the remnants of the fallen world and the unknown.",
-            role: "UNKNOWN",
-            status: "ACTIVE"
-        },
-
-        "character-02": {
-            number: "002",
-            label: "UNKNOWN ORIGIN",
-            title: "CHARACTER NAME",
-            description:
-                "Another character description goes here. Information regarding this individual remains partially classified.",
-            role: "UNKNOWN",
-            status: "ACTIVE"
-        },
-
-        "character-03": {
-            number: "003",
-            label: "UNKNOWN ORIGIN",
-            title: "CHARACTER NAME",
-            description:
-                "The origin and purpose of this character remain unknown. Further records are currently unavailable.",
-            role: "UNKNOWN",
-            status: "UNKNOWN"
-        }
-
-    };
-
-
-    characterCards.forEach(function(card) {
-
-        card.addEventListener("click", function() {
-
-            const id = card.dataset.character;
-            const data = characters[id];
-
-            if (!data) return;
-
-
-            detailNumber.textContent =
-                data.number;
-
-            detailLabel.textContent =
-                data.label;
-
-            detailTitle.textContent =
-                data.title;
-
-            detailDescription.textContent =
-                data.description;
-
-
-            detailMeta.innerHTML = `
-                <div>
-                    <span>ROLE</span>
-                    <strong>${data.role}</strong>
-                </div>
-
-                <div>
-                    <span>STATUS</span>
-                    <strong>${data.status}</strong>
-                </div>
-            `;
-
-
-            characterDetail.classList.add("active");
-
-
-            setTimeout(function() {
-
-                characterDetail.scrollIntoView({
-                    behavior: "smooth",
-                    block: "nearest"
-                });
-
-            }, 100);
-
-        });
-
-    });
-
-
-    // =========================
-    // CLOSE
-    // =========================
-
-    const closeButton =
-        document.querySelector(".character-detail-close");
-
-    closeButton.addEventListener("click", function() {
-
-        characterDetail.classList.remove("active");
-
-    });
-
-</script>
+    </script>
 
 </body>
 </html>
+```
