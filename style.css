@@ -952,9 +952,12 @@ button {
         text-align: left;
     }
 
+.hero-subtitle {
+    margin-bottom: 20px;
 }
+
 .hero-subtitle img {
-    width: 350px;
+    width: 500px;
     height: auto;
     display: block;
 }
