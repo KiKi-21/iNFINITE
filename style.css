@@ -163,14 +163,13 @@ button {
     position: absolute;
     inset: 0;
 
-    background-image:
-        url("Chess.png");
+    background-image: url("Chess.png");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     filter: grayscale(20%) contrast(110%);
-
     transform: scale(1.04);
 }
 
