@@ -1183,4 +1183,9 @@ button {
     display: block;
 }
 
+    .hero-subtitle img {
+        width: 85vw;
+        height: auto;
+    }
+
 }
