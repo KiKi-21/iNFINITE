@@ -1035,7 +1035,15 @@ button {
 .footer-code {
     text-align: right;
 }
+.hero-subtitle {
+    margin-bottom: 20px;
+}
 
+.hero-subtitle img {
+    width: 1200px;
+    height: auto;
+    display: block;
+}
 
 /* ========================================
    MOBILE
@@ -1172,20 +1180,9 @@ button {
     top: 15px;
     right: 7vw;
 }
-
-.hero-subtitle {
-    margin-bottom: 20px;
-}
-
-.hero-subtitle img {
-    width: 1200px;
-    height: auto;
-    display: block;
-}
-
-    .hero-subtitle img {
-        width: 85vw;
-        height: auto;
+    .hero-subtitle img { 
+        width: 85vw; 
+        height: auto; 
     }
 
 }
