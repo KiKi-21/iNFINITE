@@ -388,18 +388,153 @@
     </footer>
 
 
-    <script>
-        // 헤더 스크롤 효과
-        window.addEventListener("scroll", function () {
-            const header = document.querySelector(".header");
+  <script>
 
-            if (window.scrollY > 50) {
-                header.classList.add("scrolled");
-            } else {
-                header.classList.remove("scrolled");
-            }
+    // =========================
+    // HEADER SCROLL
+    // =========================
+
+    window.addEventListener("scroll", function () {
+
+        const header = document.querySelector(".header");
+
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+
+    });
+
+
+    // =========================
+    // CHARACTER DETAIL
+    // =========================
+
+    const characterCards =
+        document.querySelectorAll(".character-card");
+
+    const characterDetail =
+        document.querySelector(".character-detail");
+
+    const detailNumber =
+        document.querySelector(".character-detail-number");
+
+    const detailLabel =
+        document.querySelector(".character-detail-label");
+
+    const detailTitle =
+        document.querySelector(".character-detail-content h2");
+
+    const detailDescription =
+        document.querySelector(".character-detail-content p");
+
+    const detailMeta =
+        document.querySelector(".character-detail-meta");
+
+
+    const characters = {
+
+        "character-01": {
+            number: "001",
+            label: "UNKNOWN ORIGIN",
+            title: "CHARACTER NAME",
+            description:
+                "Character description goes here. This character exists somewhere between the remnants of the fallen world and the unknown.",
+            role: "UNKNOWN",
+            status: "ACTIVE"
+        },
+
+        "character-02": {
+            number: "002",
+            label: "UNKNOWN ORIGIN",
+            title: "CHARACTER NAME",
+            description:
+                "Another character description goes here. Information regarding this individual remains partially classified.",
+            role: "UNKNOWN",
+            status: "ACTIVE"
+        },
+
+        "character-03": {
+            number: "003",
+            label: "UNKNOWN ORIGIN",
+            title: "CHARACTER NAME",
+            description:
+                "The origin and purpose of this character remain unknown. Further records are currently unavailable.",
+            role: "UNKNOWN",
+            status: "UNKNOWN"
+        }
+
+    };
+
+
+    characterCards.forEach(function(card) {
+
+        card.addEventListener("click", function() {
+
+            const id = card.dataset.character;
+            const data = characters[id];
+
+            if (!data) return;
+
+
+            detailNumber.textContent =
+                data.number;
+
+            detailLabel.textContent =
+                data.label;
+
+            detailTitle.textContent =
+                data.title;
+
+            detailDescription.textContent =
+                data.description;
+
+
+            detailMeta.innerHTML = `
+                <div>
+                    <span>ROLE</span>
+                    <strong>${data.role}</strong>
+                </div>
+
+                <div>
+                    <span>STATUS</span>
+                    <strong>${data.status}</strong>
+                </div>
+            `;
+
+
+            characterDetail.classList.add("active");
+
+
+            setTimeout(function() {
+
+                characterDetail.scrollIntoView({
+                    behavior: "smooth",
+                    block: "nearest"
+                });
+
+            }, 100);
+
         });
-    </script>
+
+    });
+
+
+    // =========================
+    // CLOSE
+    // =========================
+
+    const closeButton =
+        document.querySelector(".character-detail-close");
+
+    closeButton.addEventListener("click", function() {
+
+        characterDetail.classList.remove("active");
+
+    });
+
+</script>
 
 </body>
 </html>
