@@ -550,11 +550,20 @@ button {
 
 .character-03 {
     background-image:
-        linear-gradient(
-            145deg,
-            #17151d,
-            #09090c
-        );
+        url("Siheon.svg"),
+        linear-gradient(145deg, #17151d, #09090c);
+
+    background-size:
+        80%,
+        cover;
+
+    background-position:
+        center bottom,
+        center;
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
 }
 
 
